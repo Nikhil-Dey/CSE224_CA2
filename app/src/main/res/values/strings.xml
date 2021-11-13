@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CSE224_CA2</string>
+    <string name="login1">Login</string>
+    <string name="login2">Login</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="or">OR</string>
+    <string name="password">Password</string>
+    <string name="signup">SignUp</string>
+    <string name="todo1">TODO</string>
+    <string name="done">Done</string>
+    <string name="todo2">TODO</string>
+    <string name="remember_me">Remember me</string>
+    <string name="profile_photo">profile_photo</string>
+    <string name="gmail_id">gmail id</string>
+    <string name="github_id">github id</string>
+</resources>

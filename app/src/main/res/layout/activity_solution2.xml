@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF00"
+    tools:context=".Solution2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Enter Your Name"
+        android:id="@+id/enterYourName"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#FF0000"
+        />
+
+    <EditText
+        android:id="@+id/name1"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/enterYourName"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:id="@+id/button1"
+        android:layout_alignBottom="@+id/name1"
+        android:layout_marginBottom="-60dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radio Button"
+        android:id="@+id/radio"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_marginBottom="-60dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Button"
+        android:textColor="@color/black"
+        android:id="@+id/checkbox"
+        android:layout_alignBottom="@+id/radio"
+        android:layout_marginBottom="-60dp"
+        android:layout_marginLeft="15dp"
+        />
+
+</RelativeLayout>
